@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 19
+    commands:
+      - npm install
+
+  pre_build:
+    commands:
+      - echo Pre-build phase...
+
+  build:
+    commands:
+      - npm run build
+
+  post_build:
+    commands:
+      - npm start
+
+cache:
+  paths:
+    - 'node_modules/**/*'
