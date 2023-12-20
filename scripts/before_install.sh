@@ -12,3 +12,5 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm install 19.7.0
 nvm use 19.7.0
+
+rm -f -r /home/ubuntu/ea-test-application
