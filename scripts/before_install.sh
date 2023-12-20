@@ -1,5 +1,8 @@
 #!/bin/bash
 
+killall node
+rm -f -r /home/ubuntu/ea-test-application
+
 # Install node.js
 sudo apt-get update
 sudo apt install curl
@@ -11,6 +14,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 nvm install 19.7.0
-nvm use 19.7.0
-
-rm -f -r /home/ubuntu/ea-test-application
