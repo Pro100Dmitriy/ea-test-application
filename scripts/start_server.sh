@@ -1,3 +1,6 @@
+#!/bin/bash
+echo "app start ;)"
+
 cd /home/ubuntu/ea-test-application
 
 # Инициализация NVM
@@ -8,7 +11,7 @@ export NVM_DIR="$HOME/.nvm"
 # Использование определенной версии Node.js
 nvm use 19.7.0
 
-node -v
+sudo npm install
 
 sudo npm run build
 
