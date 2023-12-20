@@ -13,3 +13,5 @@ cd /home/ubuntu/ea-test-application
 
 # Ваши команды
 sudo npm install
+
+sudo npm run build
