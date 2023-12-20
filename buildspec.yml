@@ -14,10 +14,16 @@ phases:
   build:
     commands:
       - npm run build
+      - mkdir -p ea-test-application/BuildArtif
+      - mv path_to_generated_files/* ea-test-application/BuildArtif
 
   post_build:
     commands:
       - echo Post build phase...
+
+artifacts:
+  files:
+    - ea-test-application/BuildArtif/**/*
 
 cache:
   paths:
