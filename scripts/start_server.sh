@@ -8,4 +8,8 @@ export NVM_DIR="$HOME/.nvm"
 # Использование определенной версии Node.js
 nvm use 19.7.0
 
+node -v
+
+sudo npm run build
+
 sudo npm start
