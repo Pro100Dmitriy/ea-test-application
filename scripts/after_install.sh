@@ -16,4 +16,6 @@ rm -f -r /node_modules
 # Ваши команды
 sudo npm install
 
+node -v
+
 sudo npm run build
