@@ -21,7 +21,7 @@ phases:
 
 artifacts:
   files:
-    - ea-test-application/SourceArtif/**/*
+    - ./**/*
 
 cache:
   paths:
