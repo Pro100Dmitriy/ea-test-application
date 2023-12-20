@@ -14,8 +14,6 @@ phases:
   build:
     commands:
       - npm run build
-      - mkdir -p ea-test-application/BuildArtif
-      - mv path_to_generated_files/* ea-test-application/BuildArtif
 
   post_build:
     commands:
@@ -23,7 +21,7 @@ phases:
 
 artifacts:
   files:
-    - ea-test-application/BuildArtif/**/*
+    - ea-test-application/SourceArtif/**/*
 
 cache:
   paths:
