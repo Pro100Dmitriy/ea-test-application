@@ -11,6 +11,8 @@ nvm use 19.7.0
 mkdir /home/ubuntu/ea-test-application
 cd /home/ubuntu/ea-test-application
 
+rm -f -r /node_modules
+
 # Ваши команды
 sudo npm install
 
