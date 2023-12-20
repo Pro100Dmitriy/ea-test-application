@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /home/ubuntu/ea-test-application
-
-sudo npm install
+#cd /home/ubuntu/ea-test-application
+#
+#sudo npm install
