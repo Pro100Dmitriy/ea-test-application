@@ -6,6 +6,10 @@ files:
     destination: /home/ubuntu/ea-test-application
 
 hooks:
+  ApplicationStop:
+    - location: scripts/stop_server.sh
+      timeout: 30
+      runas: root
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 30
